@@ -31,5 +31,6 @@ jobs:
       - name: Unit test
         run: python test_app.py
 
-
+      - name: Build docker image
+        run: docker build -t devops-real-1 .
 
